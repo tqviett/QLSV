@@ -10,10 +10,8 @@ class Sinhvien extends Model
     use HasFactory;
     protected $fillable = [
         'MaSV',
-        'HoTen',
-        'NgaySinh',
-        'GioiTinh',
-        'DiaChi',
-        'SoDT',
+        'Email',
+        'Lop',
+        'Gioitinh',
     ];
 }
